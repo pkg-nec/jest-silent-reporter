@@ -1,6 +1,6 @@
 {
   "name": "@pkg-nec/jest-silent-reporter",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "A silent reporter for Jest",
   "main": "index.js",
   "repository": "https://github.com/pkg-nec/jest-silent-reporter",

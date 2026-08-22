@@ -10,6 +10,9 @@
   },
   "author": "rickhanlonii <rickhanlonii@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -18,7 +21,7 @@
   },
   "dependencies": {
     "chalk": "^4.0.0",
-    "jest-util": "^26.0.0"
+    "jest-util": "^30.4.1"
   },
   "devDependencies": {
     "prettier": "^1.10.2"

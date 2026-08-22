@@ -1,5 +1,9 @@
 node_modules/
 .DS_store
 
+# Yarn-generated project state; keep the selected Yarn release executable.
+.yarn/*
+!.yarn/releases/
+
 # Local isolated implementation worktrees
 .worktrees/

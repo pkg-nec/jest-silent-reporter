@@ -1,11 +1,18 @@
 {
-  "name": "jest-silent-reporter",
+  "name": "@pkg-nec/jest-silent-reporter",
   "version": "0.6.0",
   "description": "A silent reporter for Jest",
   "main": "index.js",
-  "repository": "https://github.com/rickhanlonii/jest-silent-reporter",
+  "repository": "https://github.com/pkg-nec/jest-silent-reporter",
+  "homepage": "https://github.com/pkg-nec/jest-silent-reporter#readme",
+  "bugs": {
+    "url": "https://github.com/pkg-nec/jest-silent-reporter/issues"
+  },
   "author": "rickhanlonii <rickhanlonii@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prettier": "prettier --write **/**.js **/**.md"
   },

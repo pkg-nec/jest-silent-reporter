@@ -9,18 +9,25 @@
   <img src="https://user-images.githubusercontent.com/2440089/188526149-afb2600a-ddb3-49ec-83e8-dfdc2fb975d2.png" height="200"/>
 </p>
 
+> [!NOTE]
+> `@pkg-nec/jest-silent-reporter` is a maintained fork of
+> [`jest-silent-reporter`](https://github.com/rickhanlonii/jest-silent-reporter),
+> originally authored by Rick Hanlon II. The pkg-nec `0.6.0` release preserves
+> the upstream production code and dependencies; future releases will focus on
+> maintenance and security updates.
+
 ## Installation
 
 Using [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm i --save-dev jest-silent-reporter
+$ npm i --save-dev @pkg-nec/jest-silent-reporter
 ```
 
 Using [yarn](https://yarnpkg.com/):
 
 ```sh
-$ yarn add --dev jest-silent-reporter
+$ yarn add --dev @pkg-nec/jest-silent-reporter
 ```
 
 ## Usage
@@ -28,14 +35,14 @@ $ yarn add --dev jest-silent-reporter
 Jest CLI:
 
 ```bash
-jest --reporters=jest-silent-reporter
+jest --reporters=@pkg-nec/jest-silent-reporter
 ```
 
 Jest config:
 
 ```json
 {
-  "reporters": ["jest-silent-reporter"]
+  "reporters": ["@pkg-nec/jest-silent-reporter"]
 }
 ```
 
@@ -43,13 +50,13 @@ Jest config:
 
 ### useDots: boolean
 
-For large test suites, `jest-silent-reporter` can cause CI to fail due to having
+For large test suites, `@pkg-nec/jest-silent-reporter` can cause CI to fail due to having
 no output for some configured amount of time. Using the `useDots` option will
 output dots for each test file, similar to a dot reporter.
 
 ```json
 {
-  "reporters": [["jest-silent-reporter", { "useDots": true }]]
+  "reporters": [["@pkg-nec/jest-silent-reporter", { "useDots": true }]]
 }
 ```
 
@@ -61,7 +68,7 @@ Warnings are supressed by default, use `showWarnings` to log them.
 
 ```json
 {
-  "reporters": [["jest-silent-reporter", { "showWarnings": true }]]
+  "reporters": [["@pkg-nec/jest-silent-reporter", { "showWarnings": true }]]
 }
 ```
 
@@ -75,7 +82,7 @@ running tests in a terminal inside IDE for quicker file navigation).
 
 ```json
 {
-  "reporters": [["jest-silent-reporter", { "showPaths": true }]]
+  "reporters": [["@pkg-nec/jest-silent-reporter", { "showPaths": true }]]
 }
 ```
 

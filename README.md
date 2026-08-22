@@ -9,6 +9,7 @@
   <img src="https://user-images.githubusercontent.com/2440089/188526149-afb2600a-ddb3-49ec-83e8-dfdc2fb975d2.png" height="200"/>
 </p>
 
+<!-- prettier-ignore -->
 > [!NOTE]
 > `@pkg-nec/jest-silent-reporter` is a maintained fork of
 > [`jest-silent-reporter`](https://github.com/rickhanlonii/jest-silent-reporter),
@@ -50,9 +51,9 @@ Jest config:
 
 ### useDots: boolean
 
-For large test suites, `@pkg-nec/jest-silent-reporter` can cause CI to fail due to having
-no output for some configured amount of time. Using the `useDots` option will
-output dots for each test file, similar to a dot reporter.
+For large test suites, `@pkg-nec/jest-silent-reporter` can cause CI to fail due
+to having no output for some configured amount of time. Using the `useDots`
+option will output dots for each test file, similar to a dot reporter.
 
 ```json
 {
@@ -60,7 +61,8 @@ output dots for each test file, similar to a dot reporter.
 }
 ```
 
-Note: this config is also available as an environment variable `JEST_SILENT_REPORTER_DOTS=true`.
+Note: this config is also available as an environment variable
+`JEST_SILENT_REPORTER_DOTS=true`.
 
 ### showWarnings: boolean
 
@@ -72,8 +74,8 @@ Warnings are supressed by default, use `showWarnings` to log them.
 }
 ```
 
-Note: this config is also available as an environment variable `JEST_SILENT_REPORTER_SHOW_WARNINGS=true`.
-
+Note: this config is also available as an environment variable
+`JEST_SILENT_REPORTER_SHOW_WARNINGS=true`.
 
 ### showPaths: boolean
 
@@ -86,7 +88,8 @@ running tests in a terminal inside IDE for quicker file navigation).
 }
 ```
 
-Note: this config is also available as  an environment variable `JEST_SILENT_REPORTER_SHOW_PATHS=true`.
+Note: this config is also available as an environment variable
+`JEST_SILENT_REPORTER_SHOW_PATHS=true`.
 
 ## Screenshots
 

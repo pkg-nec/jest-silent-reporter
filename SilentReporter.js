@@ -1,4 +1,4 @@
-const jestUtils = require('jest-util');
+const jestUtils = require('@pkg-nec/jest-util');
 const helpers = require('./helpers');
 const StdIo = require('./StdIo');
 

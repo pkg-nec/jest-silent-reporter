@@ -20,7 +20,7 @@
     "prettier": "prettier --write **/**.js **/**.md"
   },
   "dependencies": {
-    "@pkg-nec/jest-util": "^30.4.1",
+    "@pkg-nec/jest-util": "^30.4.3",
     "chalk": "^4.0.0"
   },
   "devDependencies": {

@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@pkg-nec/jest-util": "^30.4.3",
-    "chalk": "^4.0.0"
+    "chalk": "^6.0.0"
   },
   "devDependencies": {
     "prettier": "^1.10.2"
